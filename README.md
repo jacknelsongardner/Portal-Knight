@@ -1,18 +1,36 @@
-## PortalKnightUnityProjectFiles
 
-[(![PortalKnight](docs/KnightlyGamePlay.mov))
+###Portal Knight
 
-Portal Knight is a casual puzzle game with the goal of improving a users ability to maneuver the knight, one of the most challenging pieces in chess to take advantage of. Players control a knight piece on a chessboard and must escape from enemy pieces using the knight's unique movement pattern. The board is randomly generated for each level, and enemies are dynamically placed around the player's path, providing a fresh challenge each time.
+[![Click to see footage of gameplay](docs/titlescreen.png)](https://www.linkedin.com/feed/update/urn:li:activity:7125704209798189056/)
 
-#Features
+Portal Knight is a casual puzzle game focused on enhancing the player’s ability to maneuver the knight, one of the most challenging chess pieces. Players control a knight piece on a chessboard and must escape from enemy pieces using the knight's unique L-shaped movement pattern. Each level is procedurally generated, and enemies are dynamically placed along the player’s path, offering a fresh challenge every time.
 
-    Random Level Generation: Levels are procedurally generated with a random pathfinding algorithm to create new challenges every time you play.
-    Customizable Board Size: Players can adjust the size of the board for different levels of difficulty.
-    Enemy Placement: Enemies are intelligently spawned around the player's path, ensuring each level is uniquely challenging.
-    Hints System: Players can activate hints to visualize potential escape routes or safe zones.
-    Chess-Inspired Gameplay: Utilize the knight's movement (L-shaped pattern) to avoid enemies and reach the goal.
+[![Gameplay](docs/smallboard.png)]
 
-#Technologies Used:
+##Features
+🎲 Random Level Generation
 
-    Unity: Built in Unity using C#.
-    Component-Based Architecture: Designed with a modular, component-based architecture to keep code maintainable and flexible.
+Levels are procedurally generated using a random pathfinding algorithm, creating unique challenges with each playthrough.
+📏 Customizable Board Size
+
+Players can adjust the size of the chessboard to match their preferred difficulty level.
+
+[![Gameplay](docs/smallboard.png)]
+
+👾 Enemy Placement
+
+Enemies are intelligently placed around the player’s path, ensuring that every level provides a different experience.
+
+[![Gameplay](docs/bigboard.png)]
+
+💡 Hints System
+
+Players can activate hints to visualize safe zones or escape routes.
+♟️ Chess-Inspired Gameplay
+
+Use the knight’s L-shaped movement pattern to avoid enemies and reach the goal.
+
+##Technologies Used
+
+    Unity: Developed using Unity with C#.
+    Component-Based Architecture: The project is built with a modular component-based architecture for flexibility and maintainability.
